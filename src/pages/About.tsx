@@ -26,8 +26,9 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
             <p className="text-gray-600 mb-4">
-              I'm a passionate software engineer with expertise in building modern web applications.
-              My focus is on creating clean, efficient, and maintainable code that solves real-world problems.
+              Hi! I am a goal-driven, passionate software engineer with expertise in Data Science, Machine Learning, and Full Stack development.
+              machine learning 
+              My focus is creating a better world for all, one step at a time. Whether large or small, technology can benefit all who choose to embrace it!
             </p>
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Skills</h3>
