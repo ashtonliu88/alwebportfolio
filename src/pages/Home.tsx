@@ -32,13 +32,14 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          <a
-            href="#projects"
+            <a
+            href="/AshtonLiuResume.pdf"
+            download
             className="inline-flex items-center px-6 py-3 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors"
-          >
-            View My Work
+            >
+            Download My Resume
             <ArrowRight className="ml-2 w-4 h-4" />
-          </a>
+            </a>
         </motion.div>
       </div>
     </motion.div>
