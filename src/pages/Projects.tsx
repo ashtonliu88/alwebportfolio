@@ -4,20 +4,20 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Project 1',
+    title: 'slugSchedule',
     description: 'A full-stack web application built with React and Node.js',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     github: 'https://github.com',
     live: 'https://example.com',
-    tags: ['React', 'Node.js', 'MongoDB']
+    tags: ['Python', 'OpenAI', 'MongoDB', 'React', 'Node.js']
   },
   {
     title: 'DermaScan',
     description: 'Mobile-first responsive web application',
     image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    github: 'https://github.com',
+    github: 'https://github.com/tiwariakshat47/DermaScan',
     live: 'https://example.com',
-    tags: ['React Native', 'Firebase']
+    tags: ['Python', 'TensorFlow', 'PyTorch', 'React Native', 'Firebase']
   }
 ];
 
