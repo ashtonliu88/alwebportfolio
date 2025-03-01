@@ -33,7 +33,7 @@ const About = () => {
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Skills</h3>
               <div className="flex flex-wrap gap-2">
-                {['React', 'TypeScript', 'Node.js', 'Python', 'AWS', 'Docker'].map((skill) => (
+                {['Python', 'C', 'C++', 'Java', 'React', 'TypeScript', 'Node.js', 'AWS', 'Docker'].map((skill) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-gray-100 rounded-full text-sm"
