@@ -247,7 +247,9 @@ const Home = () => {
           >
             <motion.a
               href="/Ashton_Liu_SWEINTERN_Resume.pdf"
-              download
+              download="Ashton_Liu_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ 
                 scale: 1.05,
                 boxShadow: "0 20px 40px rgba(139, 92, 246, 0.4)"
