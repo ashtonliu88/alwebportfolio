@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { MapPin, Calendar, ExternalLink, Building, GraduationCap, Code2, Users, Award } from 'lucide-react';
 
 const experiences = [
@@ -344,13 +345,13 @@ const Experience = () => {
               I'm always open to discussing new opportunities and exciting projects.
             </p>
             <div className="flex justify-center">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300 font-medium text-lg"
               >
                 Get In Touch
                 <ExternalLink className="ml-2 w-5 h-5" />
-              </a>
+              </Link>
             </div>
           </div>
         </motion.div>
